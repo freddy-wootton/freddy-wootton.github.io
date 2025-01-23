@@ -13,36 +13,54 @@
             height: 100vh;
             background-color: #f4f4f4;
             margin: 0;
+            padding: 20px;
+            box-sizing: border-box;
         }
         .container {
             text-align: center;
+            max-width: 800px;
+            margin: auto;
+            background: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
         }
         h1 {
             color: #4169e1;
+            margin-bottom: 20px;
         }
         p {
             color: #333;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+        iframe {
+            width: 100%;
+            height: 500px;
+            border: none;
+            margin-bottom: 20px;
+        }
+        img {
+            width: 100px;
+            height: auto;
         }
     </style>
 </head>
 <body>
     <div class="container">
         <h1>Freddy Wootton</h1>
-            <p> Welcome to my website. I am a second year maths student at the university of Exeter. </p>
-
-            <p> 
-            I like to code. Below is a simple demonstration on how altering the standard deviation affects the normal distribution.
-            Notice how as you increase sd, the data tends to deviate more.
-            This is because the definition of sd is the mean average 'distance' a data point is away from the mean.
-            The seed value determines how the data is randomly generted. This demonstration was coded in r and deployed using the shiny package.
-            </p>
-        <h1 >My Shiny App </h1>
-  <iframe src="https://freddywootton.shinyapps.io/fredapp/" width="100%" height="1000" frameborder="0"></iframe>
-
-    <img src="https://octodex.github.com/images/daftpunktocat-thomas.gif" id="octocat" alt="octocat-gif" width="10%" height="10%" />
-</body>
+        <p>Welcome to my website. I am a second-year maths student at the University of Exeter.</p>
+        <p>
+            I like to code. Below is a simple demonstration of how altering the standard deviation affects the normal distribution.
+            Notice how as you increase the standard deviation, the data tends to deviate more.
+            This is because the definition of standard deviation is the mean average 'distance' a data point is away from the mean.
+            The seed value determines how the data is randomly generated. This demonstration was coded in R and deployed using the Shiny package.
+        </p>
+        <h1>My Shiny App</h1>
+        <iframe src="https://freddywootton.shinyapps.io/fredapp/"></iframe>
+        <img src="https://octodex.github.com/images/daftpunktocat-thomas.gif" id="octocat" alt="octocat-gif" />
     </div>
-    
+</body>
 </html>
 
 <!-- Copy for comment -->
