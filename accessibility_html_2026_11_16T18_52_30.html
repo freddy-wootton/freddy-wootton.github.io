@@ -1,0 +1,111 @@
+
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Accessibility Statement | Freddy Wootton</title>
+  <meta name="description" content="Accessibility statement — steps taken to make this site usable for everyone.">
+  <meta http-equiv="Content-Security-Policy"
+        content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; font-src 'self'; connect-src 'self' https://formspree.io; form-action https://formspree.io; base-uri 'self'; object-src 'none'; frame-src 'none';">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <a href="#main" class="skip-link">Skip to main content</a>
+
+  <header class="site-header" role="banner">
+    <nav class="nav" aria-label="Primary navigation">
+      <a href="index.html" class="nav__logo" aria-label="Freddy Wootton — home">FW</a>
+      <button class="theme-toggle" aria-label="Switch to dark mode" type="button">
+        <svg class="theme-toggle__icon theme-toggle__icon--sun" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+        <svg class="theme-toggle__icon theme-toggle__icon--moon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+      </button>
+    </nav>
+  </header>
+
+  <main id="main" class="policy-page">
+    <div class="container">
+
+      <h1>Accessibility Statement</h1>
+      <p class="last-updated">Last updated: November 2026</p>
+
+      <h2>1. Commitment</h2>
+      <p>
+        I want this site to be usable by as many people as possible, regardless
+        of ability, device, or assistive technology. I aim to meet the
+        <strong>Web Content Accessibility Guidelines (WCAG) 2.2 Level AA</strong>
+        standard.
+      </p>
+
+      <h2>2. What I Have Done</h2>
+      <ul>
+        <li>Used semantic HTML landmarks (<code>&lt;header&gt;</code>,
+        <code>&lt;main&gt;</code>, <code>&lt;nav&gt;</code>,
+        <code>&lt;footer&gt;</code>) for clear page structure</li>
+        <li>Provided a &ldquo;Skip to main content&rdquo; link</li>
+        <li>Ensured all interactive elements are keyboard-accessible with visible
+        focus indicators</li>
+        <li>Maintained colour contrast of at least 4.5:1 for body text and 3:1
+        for large text</li>
+        <li>Included descriptive alt text for all meaningful images</li>
+        <li>Labelled all form fields with associated
+        <code>&lt;label&gt;</code> elements</li>
+        <li>Used <code>aria-live</code> regions for dynamic status messages
+        (e.g. form submission feedback)</li>
+        <li>Respected <code>prefers-reduced-motion</code> &mdash; animations are
+        disabled for users who prefer reduced motion</li>
+        <li>Supported both light and dark colour schemes</li>
+        <li>Used relative font sizes so text scales with browser settings</li>
+        <li>Ensured no content or meaning is conveyed by colour alone</li>
+      </ul>
+
+      <h2>3. Known Limitations</h2>
+      <ul>
+        <li>
+          <strong>Skill proficiency bars:</strong> These are visual indicators.
+          The equivalent text label and ARIA progressbar role are provided, but
+          the visual gradient may not convey nuance to all users.
+        </li>
+        <li>
+          <strong>Third-party form service:</strong> The contact form is
+          processed by Formspree. While I have made the form itself accessible,
+          I cannot guarantee the accessibility of Formspree&rsquo;s server-side
+          processing or confirmation pages.
+        </li>
+      </ul>
+
+      <h2>4. Feedback and Contact</h2>
+      <p>
+        If you find an accessibility barrier on this site, I would genuinely like
+        to know so I can fix it. Please contact me through the
+        <a href="index.html#contact">contact form</a> or via
+        <a href="https://www.linkedin.com/in/YOUR-LINKEDIN" target="_blank"
+        rel="noopener noreferrer">LinkedIn<span class="sr-only"> (opens in
+        new tab)</span></a>, and I will do my best to address the issue
+        promptly.
+      </p>
+
+      <h2>5. Technical Details</h2>
+      <p>
+        This site is built with semantic HTML5, CSS custom properties, and
+        vanilla JavaScript. It has been tested with keyboard navigation and
+        screen-reader software. It is designed to work across modern browsers
+        including Chrome, Firefox, Safari, and Edge on both desktop and mobile.
+      </p>
+
+      <p><a href="index.html">&larr; Back to home</a></p>
+    </div>
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <p class="footer__copy">&copy; <span id="footer-year">2026</span> Freddy Wootton</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+

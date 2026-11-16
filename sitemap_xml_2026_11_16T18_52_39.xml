@@ -1,0 +1,31 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Replace YOUR_USERNAME with your GitHub username or custom domain -->
+  <url>
+    <loc>https://YOUR_USERNAME.github.io/</loc>
+    <lastmod>2026-11-16</lastmod>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://YOUR_USERNAME.github.io/privacy.html</loc>
+    <lastmod>2026-11-16</lastmod>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://YOUR_USERNAME.github.io/cookies.html</loc>
+    <lastmod>2026-11-16</lastmod>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://YOUR_USERNAME.github.io/accessibility.html</loc>
+    <lastmod>2026-11-16</lastmod>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://YOUR_USERNAME.github.io/terms.html</loc>
+    <lastmod>2026-11-16</lastmod>
+    <priority>0.3</priority>
+  </url>
+</urlset>
+

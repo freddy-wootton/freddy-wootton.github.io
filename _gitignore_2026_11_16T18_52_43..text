@@ -1,0 +1,42 @@
+
+# macOS
+.DS_Store
+._*
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+
+# Node (in case you ever add tooling)
+node_modules/
+package-lock.json
+
+# Environment / secrets — NEVER commit these
+.env
+.env.local
+.env.*
+*.pem
+*.key
+
+# Draft/private content
+drafts/
+_private/
+
+# OS-generated thumbnails
+ehthumbs.db
+
+# Compiled output (shouldn't exist for static site)
+dist/
+build/
+

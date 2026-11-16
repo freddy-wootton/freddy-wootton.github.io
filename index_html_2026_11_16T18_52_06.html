@@ -1,0 +1,401 @@
+
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Freddy Wootton | MMath Mathematics Student</title>
+  <meta name="description" content="Freddy Wootton — MMath Mathematics student at the University of Exeter with a focus on statistics, pursuing an actuarial career.">
+
+  <!-- Security headers -->
+  <meta http-equiv="Content-Security-Policy"
+        content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; font-src 'self'; connect-src 'self' https://formspree.io; form-action https://formspree.io; base-uri 'self'; object-src 'none'; frame-src 'none';">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Freddy Wootton | MMath Mathematics Student">
+  <meta property="og:description" content="MMath Mathematics student at the University of Exeter with a focus on statistics, pursuing an actuarial career.">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="en_GB">
+  <!-- [CONFIRM WITH FREDDY] Update og:url once domain is finalised -->
+  <meta property="og:url" content="https://YOUR_USERNAME.github.io">
+
+  <!-- JSON-LD Person Schema — only approved data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Frederick Wootton",
+    "alternateName": "Freddy Wootton",
+    "url": "https://YOUR_USERNAME.github.io",
+    "jobTitle": "MMath Mathematics Student",
+    "affiliation": {
+      "@type": "CollegeOrUniversity",
+      "name": "University of Exeter"
+    },
+    "knowsAbout": ["Statistics", "Actuarial Science", "Mathematics", "R Programming", "Data Visualisation"],
+    "sameAs": [
+      "https://www.linkedin.com/in/YOUR-LINKEDIN"
+    ]
+  }
+  </script>
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Skip link for keyboard/screen-reader users -->
+  <a href="#main" class="skip-link">Skip to main content</a>
+
+  <!-- ==================== HEADER / NAV ==================== -->
+  <header class="site-header" role="banner">
+    <nav class="nav" aria-label="Primary navigation">
+      <a href="#about" class="nav__logo" aria-label="Freddy Wootton — home">FW</a>
+
+      <button class="nav__toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Open menu">
+        <span class="nav__toggle-bar"></span>
+        <span class="nav__toggle-bar"></span>
+        <span class="nav__toggle-bar"></span>
+      </button>
+
+      <ul id="nav-menu" class="nav__list" role="list">
+        <li><a href="#about" class="nav__link">About</a></li>
+        <li><a href="#education" class="nav__link">Education</a></li>
+        <li><a href="#experience" class="nav__link">Experience</a></li>
+        <li><a href="#projects" class="nav__link">Projects</a></li>
+        <li><a href="#skills" class="nav__link">Skills</a></li>
+        <li><a href="#interests" class="nav__link">Interests</a></li>
+        <li><a href="#contact" class="nav__link">Contact</a></li>
+      </ul>
+
+      <button class="theme-toggle" aria-label="Switch to dark mode" type="button">
+        <svg class="theme-toggle__icon theme-toggle__icon--sun" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+        <svg class="theme-toggle__icon theme-toggle__icon--moon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+      </button>
+    </nav>
+  </header>
+
+  <!-- ==================== MAIN CONTENT ==================== -->
+  <main id="main">
+
+    <!-- -------- ABOUT / HERO -------- -->
+    <section id="about" class="section hero" aria-labelledby="about-heading">
+      <div class="container">
+        <p class="hero__label accent-font">Hello, I&#8217;m</p>
+        <h1 id="about-heading" class="hero__name">Freddy Wootton</h1>
+        <p class="hero__subtitle">MMath Mathematics · University of Exeter</p>
+        <p class="hero__intro">
+          I&#8217;m a mathematics student with a strong focus on statistics, originally
+          from Newquay, Cornwall. I&#8217;m working towards a career in the actuarial
+          profession, combining analytical skills with a genuine curiosity about
+          how data informs decisions.
+        </p>
+        <div class="hero__cta">
+          <a href="#projects" class="btn btn--primary">View Projects</a>
+          <!-- CV download — replace href when you supply a sanitised PDF -->
+          <a href="assets/freddy-wootton-cv.pdf" class="btn btn--outline" download>Download CV</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- -------- EDUCATION -------- -->
+    <section id="education" class="section" aria-labelledby="education-heading">
+      <div class="container">
+        <h2 id="education-heading" class="section__title">Education</h2>
+        <div class="card" data-animate>
+          <h3 class="card__title">MMath Mathematics</h3>
+          <p class="card__subtitle accent-font">University of Exeter · Expected June 2027</p>
+          <ul class="card__list">
+            <li>Strong focus on statistics and data handling</li>
+            <li>Modules in Newtonian mechanics, fluid dynamics, and number theory</li>
+            <!-- [CONFIRM WITH FREDDY] Add specific modules or grades here if desired -->
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- -------- EXPERIENCE & LEADERSHIP -------- -->
+    <section id="experience" class="section section--alt" aria-labelledby="experience-heading">
+      <div class="container">
+        <h2 id="experience-heading" class="section__title">Experience &amp; Leadership</h2>
+
+        <div class="card" data-animate>
+          <h3 class="card__title">Vice President</h3>
+          <p class="card__subtitle accent-font">Exeter Mathematics Society (MathSoc)</p>
+          <p class="card__body">
+            Supporting the society&#8217;s academic and social programme, coordinating
+            events, and representing the interests of mathematics students.
+          </p>
+          <!-- [CONFIRM WITH FREDDY] Add dates or specific achievements if desired -->
+        </div>
+
+        <div class="card" data-animate>
+          <h3 class="card__title">Academic Representative</h3>
+          <p class="card__subtitle accent-font">University of Exeter</p>
+          <p class="card__body">
+            Acting as a liaison between students and the department, gathering
+            feedback and contributing to programme improvements.
+          </p>
+        </div>
+
+        <div class="card" data-animate>
+          <h3 class="card__title">Trustee</h3>
+          <p class="card__subtitle accent-font">Exeter Students&#8217; Guild</p>
+          <p class="card__body">
+            Contributing to the governance and strategic direction of the
+            Students&#8217; Guild as an elected trustee.
+          </p>
+          <!-- [CONFIRM WITH FREDDY] Is "Exeter Students' Guild" the correct name? -->
+        </div>
+      </div>
+    </section>
+
+    <!-- -------- PROJECTS -------- -->
+    <section id="projects" class="section" aria-labelledby="projects-heading">
+      <div class="container">
+        <h2 id="projects-heading" class="section__title">Projects</h2>
+
+        <article class="card card--project" data-animate>
+          <h3 class="card__title">Normal Distribution Visualiser</h3>
+          <ul class="card__tags accent-font" aria-label="Tools used">
+            <li class="tag">R</li>
+            <li class="tag">Shiny</li>
+            <li class="tag">Statistics</li>
+          </ul>
+          <dl class="card__details">
+            <dt>Problem</dt>
+            <dd>
+              Understanding how changes in parameters (mean and standard deviation)
+              affect the shape and properties of a normal distribution.
+            </dd>
+            <dt>Method</dt>
+            <dd>
+              Built an interactive web application allowing users to adjust
+              parameters with sliders and instantly see the resulting distribution,
+              probability regions, and summary statistics.
+            </dd>
+            <dt>Tools</dt>
+            <dd>R, Shiny framework, ggplot2 for visualisation.</dd>
+            <dt>Outcome</dt>
+            <dd>
+              A functional teaching and revision tool that makes statistical
+              concepts tangible through direct manipulation.
+            </dd>
+          </dl>
+          <!-- [CONFIRM WITH FREDDY] Add a live link or repo URL when available -->
+          <p class="card__link-note">
+            <em>Link coming soon.</em>
+          </p>
+        </article>
+
+        <!-- To add another project, copy the <article> block above and edit -->
+      </div>
+    </section>
+
+    <!-- -------- SKILLS -------- -->
+    <section id="skills" class="section section--alt" aria-labelledby="skills-heading">
+      <div class="container">
+        <h2 id="skills-heading" class="section__title">Skills</h2>
+        <p class="section__intro">
+          Honest self-assessed proficiency levels. These are a guide, not a formal
+          qualification.
+        </p>
+
+        <!--
+          [CONFIRM WITH FREDDY] Review these proficiency levels and adjust.
+          Levels: Beginner / Developing / Intermediate / Proficient / Advanced
+          To edit: change the text AND the data-level attribute (used for the bar width).
+        -->
+
+        <div class="skills-grid" data-animate>
+          <div class="skill">
+            <div class="skill__header">
+              <span class="skill__name">R Programming</span>
+              <span class="skill__level accent-font">Intermediate</span>
+            </div>
+            <div class="skill__bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" aria-label="R Programming proficiency: Intermediate">
+              <div class="skill__fill" data-level="60"></div>
+            </div>
+          </div>
+
+          <div class="skill">
+            <div class="skill__header">
+              <span class="skill__name">Statistics &amp; Probability</span>
+              <span class="skill__level accent-font">Proficient</span>
+            </div>
+            <div class="skill__bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" aria-label="Statistics and Probability proficiency: Proficient">
+              <div class="skill__fill" data-level="75"></div>
+            </div>
+          </div>
+
+          <div class="skill">
+            <div class="skill__header">
+              <span class="skill__name">Data Visualisation</span>
+              <span class="skill__level accent-font">Intermediate</span>
+            </div>
+            <div class="skill__bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100" aria-label="Data Visualisation proficiency: Intermediate">
+              <div class="skill__fill" data-level="55"></div>
+            </div>
+          </div>
+
+          <div class="skill">
+            <div class="skill__header">
+              <span class="skill__name">LaTeX</span>
+              <span class="skill__level accent-font">Intermediate</span>
+            </div>
+            <div class="skill__bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100" aria-label="LaTeX proficiency: Intermediate">
+              <div class="skill__fill" data-level="55"></div>
+            </div>
+          </div>
+
+          <div class="skill">
+            <div class="skill__header">
+              <span class="skill__name">Microsoft Excel</span>
+              <span class="skill__level accent-font">Intermediate</span>
+            </div>
+            <div class="skill__bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100" aria-label="Microsoft Excel proficiency: Intermediate">
+              <div class="skill__fill" data-level="55"></div>
+            </div>
+          </div>
+
+          <div class="skill">
+            <div class="skill__header">
+              <span class="skill__name">Mathematical Modelling</span>
+              <span class="skill__level accent-font">Developing</span>
+            </div>
+            <div class="skill__bar" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" aria-label="Mathematical Modelling proficiency: Developing">
+              <div class="skill__fill" data-level="45"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- -------- INTERESTS -------- -->
+    <section id="interests" class="section" aria-labelledby="interests-heading">
+      <div class="container">
+        <h2 id="interests-heading" class="section__title">Interests</h2>
+        <div class="interests-grid" data-animate>
+          <div class="interest-item">
+            <span class="interest-item__icon" aria-hidden="true">&#9733;</span>
+            <h3 class="interest-item__title">Astronomy</h3>
+            <p class="interest-item__desc">
+              A fascination with the night sky and the mathematics that
+              describes it.
+            </p>
+          </div>
+          <div class="interest-item">
+            <span class="interest-item__icon" aria-hidden="true">&#9917;</span>
+            <h3 class="interest-item__title">Football</h3>
+            <p class="interest-item__desc">
+              Playing and following football as a way to stay active and unwind.
+            </p>
+          </div>
+          <div class="interest-item">
+            <span class="interest-item__icon" aria-hidden="true">&#127754;</span>
+            <h3 class="interest-item__title">Bodyboarding</h3>
+            <p class="interest-item__desc">
+              Growing up on the Cornish coast means the waves are never far away.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- -------- CONTACT -------- -->
+    <section id="contact" class="section section--alt" aria-labelledby="contact-heading">
+      <div class="container">
+        <h2 id="contact-heading" class="section__title">Get in Touch</h2>
+        <p class="section__intro">
+          I&#8217;d welcome hearing from you. Use the form below or connect via LinkedIn.
+        </p>
+
+        <div class="contact-wrapper">
+          <!--
+            FORMSPREE SETUP — replace YOUR_FORM_ID with your actual Formspree endpoint.
+            See README.md for setup instructions.
+          -->
+          <form id="contact-form"
+                class="contact-form"
+                action="https://formspree.io/f/YOUR_FORM_ID"
+                method="POST"
+                novalidate>
+
+            <div class="form-group">
+              <label for="contact-name" class="form-label">Name</label>
+              <input type="text" id="contact-name" name="name" class="form-input"
+                     required autocomplete="name" maxlength="200"
+                     aria-describedby="contact-name-error">
+              <span id="contact-name-error" class="form-error" role="alert" aria-live="polite"></span>
+            </div>
+
+            <div class="form-group">
+              <label for="contact-email" class="form-label">Email</label>
+              <input type="email" id="contact-email" name="email" class="form-input"
+                     required autocomplete="email" maxlength="320"
+                     aria-describedby="contact-email-error">
+              <span id="contact-email-error" class="form-error" role="alert" aria-live="polite"></span>
+            </div>
+
+            <div class="form-group">
+              <label for="contact-message" class="form-label">Message</label>
+              <textarea id="contact-message" name="message" class="form-input form-input--textarea"
+                        required rows="5" maxlength="3000"
+                        aria-describedby="contact-message-error"></textarea>
+              <span id="contact-message-error" class="form-error" role="alert" aria-live="polite"></span>
+            </div>
+
+            <!-- Honeypot — hidden from real users, catches bots -->
+            <div class="form-group form-group--hp" aria-hidden="true">
+              <label for="contact-hp">Leave this blank</label>
+              <input type="text" id="contact-hp" name="_gotcha" tabindex="-1" autocomplete="off">
+            </div>
+
+            <button type="submit" class="btn btn--primary form-submit" id="contact-submit">
+              Send Message
+            </button>
+
+            <div id="form-status" class="form-status" role="status" aria-live="polite"></div>
+          </form>
+
+          <div class="contact-alt">
+            <h3>Other Ways to Connect</h3>
+            <ul class="contact-alt__list">
+              <li>
+                <!-- [CONFIRM WITH FREDDY] Replace with real LinkedIn URL -->
+                <a href="https://www.linkedin.com/in/YOUR-LINKEDIN"
+                   target="_blank" rel="noopener noreferrer"
+                   class="contact-alt__link">
+                  LinkedIn
+                  <span class="sr-only">(opens in new tab)</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <nav class="footer-nav" aria-label="Legal and policy pages">
+        <ul class="footer-nav__list" role="list">
+          <li><a href="privacy.html">Privacy Policy</a></li>
+          <li><a href="cookies.html">Cookie Notice</a></li>
+          <li><a href="accessibility.html">Accessibility</a></li>
+          <li><a href="terms.html">Terms &amp; Disclaimer</a></li>
+        </ul>
+      </nav>
+      <p class="footer__copy">
+        &copy; <span id="footer-year">2026</span> Freddy Wootton. All rights reserved.
+      </p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
