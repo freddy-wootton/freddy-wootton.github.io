@@ -30,6 +30,6 @@ Third-party assets and tools used on this site.
 ---
 
 *If you believe any content on this site uses your work without proper
-attribution, please [contact me](https://YOUR_USERNAME.github.io/#contact)
+attribution, please [contact me](https://freddy-wootton.github.io/#contact)
 and I will address it promptly.*
 
